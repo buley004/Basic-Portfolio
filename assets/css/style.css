@@ -9,6 +9,7 @@ h2 {
   margin-bottom: 30px;
   border-bottom-style: solid;
   border-bottom-color: #cccccc;
+  font-size: 30px;
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -20,6 +21,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  letter-spacing: .5px;
 }
 
 .wrapper {
@@ -40,14 +42,21 @@ body {
   color: #777777;
   line-height: 100%;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0px 16px;
   text-decoration: none;
-  margin-top: 24px;
+  margin-top: 38px;
+  opacity: 0.7;
 }
 
 .topnav {
   max-width: 960px;
   margin: auto;
+}
+
+#port {
+  border-style: solid;
+  border-width: 0px 1px 0px 1px;
+  border-color: #777777;
 }
 
 h1 {
@@ -148,7 +157,7 @@ input[type=text], textarea {
 
 #submit {
   padding: 14px 20px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   background-color: #4aaaa5;
   font-size: 16px;
   color: #ffffff;
