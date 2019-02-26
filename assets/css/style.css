@@ -48,6 +48,10 @@ body {
   opacity: 0.7;
 }
 
+.topnav a:hover {
+  color: #404040;
+}
+
 .topnav {
   max-width: 960px;
   margin: auto;
@@ -162,6 +166,10 @@ input[type=text], textarea {
   font-size: 16px;
   color: #ffffff;
   text-align: center;
+}
+
+#submit:hover {
+  background-color: #377f7c;
 }
 
 textarea {
